@@ -1,7 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
   height: 100svh;
-  background-image: url("/images/image4.jpg");
+  background-image: url("../../images/image4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.205);
@@ -14,7 +14,7 @@ nav {
   position: relative;
   padding: 10px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
-  background-color: azure;
+  background-color: rgb(238, 238, 238);
 }
 
 .dropdown-menu {
@@ -23,7 +23,7 @@ nav {
   position: absolute;
   width: 12rem;
   border: none;
-  background-color: antiquewhite;
+  background-color: rgb(255, 242, 224);
 }
 
 .hidden {
@@ -32,7 +32,7 @@ nav {
 
 button {
   padding: 5px 20px;
-  border: 1px solid rgb(225, 255, 255);
+  border: 1px solid rgb(219, 219, 219);
   border-radius: 6px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
   cursor: pointer;

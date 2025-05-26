@@ -2,7 +2,7 @@ const dropdownBtn = document.querySelectorAll(".dropdown-toggle");
 const dropdownMenus = document.querySelectorAll(".dropdown-menu");
 
 dropdownBtn.forEach((btn) => {
-  btn.addEventListener("mouseover", (e) => {
+  btn.addEventListener("click", (e) => {
     const dropdownMenu = btn.nextElementSibling;
     const isHidden = dropdownMenu.classList.contains("hidden");
     hideMenus();
@@ -13,7 +13,7 @@ dropdownBtn.forEach((btn) => {
   });
 });
 
-document.addEventListener("mouseover", (e) => {
+document.addEventListener("click", (e) => {
   if (
     !e.target.closest(".dropdown-toggle") &&
     !e.target.closest(".dropdown-menu")
